@@ -1,0 +1,125 @@
+/* Estilo geral da página de detalhes do jogo */
+.game-details-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    gap: 20px; 
+  }
+  
+  
+  .game-details-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .game-details-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  .game-details-image:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .game-details-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  
+  .game-details-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+  }
+  
+  
+  .game-details-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ecf0f1;
+  }
+  
+  .game-details-info strong {
+    color: #f39c12;
+  }
+  
+  
+  .game-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 15px 0;
+  }
+
+  
+  .game-details-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: max-content;
+  }
+  
+  .game-details-info a:hover {
+    background-color: #3498db;
+  }
+  
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #e67e22;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .game-details-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .game-details-info {
+      text-align: center;
+    }
+  
+    .game-details-image {
+      max-width: 100%;
+    }
+  }
+  

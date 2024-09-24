@@ -1,0 +1,89 @@
+/* Geral */
+body {
+    background-color: #1b2838;
+    color: #c7d5e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .gamepass-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #2a475e;
+    border-radius: 10px;
+  }
+  
+  .gamepass-title {
+    color: #66c0f4;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gamepass-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .gamepass-item {
+    background-color: #1b2838;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gamepass-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .gamepass-subtitle {
+    color: #66c0f4;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #acb2b8;
+    font-size: 16px;
+  }
+  
+  
+  .gamepass-price-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .gamepass-price {
+    color: #66c0f4;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .gamepass-price span {
+    color: #c7d5e0;
+    font-weight: bold;
+  }
+  
+  .gamepass-question {
+    color: #acb2b8;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .subscribe-button {
+    background-color: #66c0f4;
+    color: #1b2838;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #5a9bd4;
+  }
+  
